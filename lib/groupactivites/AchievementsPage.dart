@@ -153,7 +153,7 @@ class _AchievementsPageState extends State<AchievementsPage> {
               Icon(icon, color: color),
               const SizedBox(width: 8),
               Text(
-                '$title ${value}/${max}',
+                '$title $value/$max',
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
