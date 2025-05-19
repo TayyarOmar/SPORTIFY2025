@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'SportiFy',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,// reem 
       theme: ThemeData(
         primaryColor: Color(0xFFE16112),
         colorScheme: ColorScheme.light(primary: Color(0xFFE16112)),
